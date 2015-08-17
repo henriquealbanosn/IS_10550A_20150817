@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>
+        Mod12GetLeftMostDescendant
+      </Title>
+      <Shortcut>
+        Mod12GetLeftMostDescendant
+      </Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="VB">
+        <![CDATA[''' <summary>
+    ''' Utility method to find the left most descendant of a tree node.
+    ''' </summary>
+    ''' <param name="node">Tree node to start from.</param>
+    ''' <returns>Left most descendant.</returns>
+    ''' <remarks></remarks>
+    Private Function GetLeftMostDescendant(ByVal node As Tree(Of TItem)) As Tree(Of TItem)
+        While Not node.LeftTree Is Nothing
+            node = node.LeftTree
+        End While
+
+        Return node
+    End Function]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

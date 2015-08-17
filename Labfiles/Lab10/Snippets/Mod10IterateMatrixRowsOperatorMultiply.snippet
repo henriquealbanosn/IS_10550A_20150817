@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+
+    <Header>
+      <Title>
+        Mod10IterateMatrixRowsOperatorMultiply
+      </Title>
+      <Shortcut>
+        Mod10IterateMatrixRowsOperatorMultiply
+      </Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="VB">
+        <![CDATA[        ' Iterate over every row in the matrix.
+        For x As Integer = 0 To matrix1.data.GetLength(0) - 1
+            ' Iterate over every column in the matrix.
+            For y As Integer = 0 To matrix1.data.GetLength(1) - 1
+                Dim temp As Integer = 0
+
+                For z As Integer = 0 To matrix1.data.GetLength(0) - 1
+                    temp += matrix1.data(x, z) * matrix2.data(z, y)
+                Next
+
+                newMatrix.data(x, y) = temp
+            Next
+        Next
+]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

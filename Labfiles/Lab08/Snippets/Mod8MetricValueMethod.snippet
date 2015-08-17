@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+
+    <Header>
+      <Title>
+        Mod8MetricValueMethod
+      </Title>
+      <Shortcut>
+        Mod8MetricValueMethod
+      </Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="VB">
+        <![CDATA[    Dim metricMostRecentMeasure As Decimal
+
+    If unitsToUse = Units.Metric Then
+        metricMostRecentMeasure =
+            Convert.ToDecimal(mostRecentMeasure)
+    Else
+        ' Imperial measurements are in inches.
+        ' Multiply imperial measurement by 25.4 to convert from
+        ' inches to millimeters. 
+        ' Convert from an integer value to a decimal.
+        Dim decimalImperialValue As Decimal =
+            Convert.ToDecimal(mostRecentMeasure)
+        Dim conversionFactor As Decimal = 25.4
+        metricMostRecentMeasure = 
+            decimalImperialValue * conversionFactor
+    End If
+
+    Return metricMostRecentMeasure
+]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

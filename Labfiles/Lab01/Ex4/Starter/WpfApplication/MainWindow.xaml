@@ -1,0 +1,10 @@
+﻿<Window x:Class="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox Height="28" HorizontalAlignment="Left" Margin="12,12,0,0" Name="TestTextBox" VerticalAlignment="Top" Width="302" />
+        <Button Content="Format Data" Height="23" HorizontalAlignment="Left" Margin="320,17,0,0" Name="TestButton" VerticalAlignment="Top" Width="80" />
+        <TextBlock Height="238" HorizontalAlignment="Left" Margin="14,50,0,0" Name="FormattedTextTextBlock" Text="" VerticalAlignment="Top" Width="384" />
+    </Grid>
+</Window>

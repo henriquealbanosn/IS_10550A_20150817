@@ -1,0 +1,50 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+GaussianElimination
+</name>
+</assembly>
+<members>
+<member name="F:GaussianElimination.Gauss.numberOfEquations">
+	<summary>
+ Number of equations (and variables) to solve for
+ </summary>
+</member><member name="M:GaussianElimination.Gauss.SolveGaussian(System.Double[0:,0:],System.Double[])">
+	<summary>
+ Solve simultaneous equations using Gaussian method
+ </summary>
+	<param name="coefficients">Coefficients from all equations</param>
+	<param name="rhs">Constants from all equations</param>
+	<returns>Array of solution results</returns>
+	<remarks></remarks>
+</member><member name="M:GaussianElimination.Gauss.DeepCopy1D(System.Double[])">
+	<summary>
+ Deep copy a one dimensional array
+ </summary>
+	<param name="arr">Array to copy</param>
+	<returns>New Array</returns>
+	<remarks></remarks>
+</member><member name="M:GaussianElimination.Gauss.DeepCopy2D(System.Double[0:,0:])">
+	<summary>
+ Deep copy a two dimensional array
+ </summary>
+	<param name="arr">Array to copy</param>
+	<returns>New Array</returns>
+	<remarks></remarks>
+</member><member name="P:GaussianElimination.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:GaussianElimination.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:GaussianElimination.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

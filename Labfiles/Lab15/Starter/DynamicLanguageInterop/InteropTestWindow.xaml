@@ -1,0 +1,59 @@
+﻿<Window x:Class="InteropTestWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Dynamic Language Interop Tests" Height="581" Width="519" WindowStyle="ThreeDBorderWindow" ResizeMode="NoResize">
+    <TabControl Height="539" HorizontalAlignment="Right" Margin="0,10,0,0" Name="testTabs" VerticalAlignment="Top" Width="508" Grid.ColumnSpan="2">
+        <TabItem Header="Python Test" Name="PythonTest">
+            <Grid Height="216" HorizontalAlignment="Left" Margin="12,12,0,0" Name="PythonTestGrid" VerticalAlignment="Top" Width="479">
+                <Label Content="Python Test - Shuffler" Height="37" HorizontalAlignment="Left" Name="PythonTestLabel" VerticalAlignment="Top" Width="479" FontFamily="Book Antiqua" FontSize="18" FontStyle="Oblique" FontWeight="Bold" />
+                <GroupBox Header="Data Type" Height="81" HorizontalAlignment="Left" Margin="262,35,0,0" Name="DataTypeGroupBox" VerticalAlignment="Top" Width="200">
+                    <Grid>
+                        <RadioButton Content="Integer" Height="16" HorizontalAlignment="Left" Margin="18,36,0,0" Name="IntegerRadioButton" VerticalAlignment="Top" Width="120" IsChecked="True" />
+                        <RadioButton Content="Text" Height="16" HorizontalAlignment="Left" Margin="18,14,0,0" Name="TextRadioButton" VerticalAlignment="Top" Width="120" IsChecked="True" />
+                    </Grid>
+                </GroupBox>
+                <TextBox Height="39" HorizontalAlignment="Left" Margin="21,52,0,0" Name="PythonTestDataTextBox" VerticalAlignment="Top" Width="235" HorizontalScrollBarVisibility="Auto" />
+                <Label Content="Data" Height="28" HorizontalAlignment="Left" Margin="21,31,0,0" Name="DataLabel" VerticalAlignment="Top" Width="120" FontStyle="Italic" />
+                <Button Content="Shuffle" Height="23" HorizontalAlignment="Left" Margin="21,97,0,0" Name="ShuffleButton" VerticalAlignment="Top" Width="75" Click="ShuffleButton_Click" />
+                <TextBox Height="39" HorizontalAlignment="Left" HorizontalScrollBarVisibility="Auto" Margin="21,159,0,0" Name="ShuffledDataTextBox" VerticalAlignment="Top" Width="235" IsReadOnly="True" />
+                <Label Content="Shuffled Data" Height="28" HorizontalAlignment="Left" Margin="21,137,0,0" Name="ShuffledDataLabel" VerticalAlignment="Top" Width="120" FontStyle="Italic" />
+            </Grid>
+        </TabItem>
+        <TabItem Header="Ruby Test" Name="RubyTest">
+            <Grid Height="503" HorizontalAlignment="Left" Margin="0,0,0,0" Name="RubyTestGrid" VerticalAlignment="Top" Width="498">
+                <Label Content="Ruby Test - Trapezoid" FontFamily="Book Antiqua" FontSize="18" FontStyle="Oblique" FontWeight="Bold" Height="37" HorizontalAlignment="Left" Margin="0,10,0,0" Name="RubyTestLabel" VerticalAlignment="Top" Width="479" />
+                <Label Content="Vertex A:" Height="28" HorizontalAlignment="Left" Margin="24,45,0,0" Name="VertexALabel" VerticalAlignment="Top" Width="62" />
+                <Slider Height="23" HorizontalAlignment="Left" Margin="131,45,0,0" Name="VertexASlider" VerticalAlignment="Top" Width="100" Maximum="89" Minimum="1" TickFrequency="1" TickPlacement="None" SmallChange="1" IsSnapToTickEnabled="True" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="233,45,0,0" Name="DisplayVertexATextBox" VerticalAlignment="Top" Width="37" IsEnabled="True" IsReadOnly="False">
+                    <TextBox.Text>
+                        <Binding ElementName="VertexASlider" Path="Value"/>
+                    </TextBox.Text>
+                </TextBox>
+                <Label Content="Length of Base:" Height="28" Margin="24,72,354,0" Name="BaseLengthLabel" VerticalAlignment="Top" />
+                <Slider Height="23" HorizontalAlignment="Right" IsSnapToTickEnabled="True" Margin="0,72,248,0" Maximum="200" Minimum="1" Name="SideABSlider" SmallChange="1" TickFrequency="1" TickPlacement="None" VerticalAlignment="Top" Width="100" />
+                <TextBox Height="23" HorizontalAlignment="Left" IsEnabled="True" IsReadOnly="False" Margin="233,72,0,0" Name="SisplaySideABTextBox" VerticalAlignment="Top" Width="37" >
+                    <TextBox.Text>
+                        <Binding ElementName="SideABSlider" Path="Value" />
+                    </TextBox.Text>
+                </TextBox>
+                <Label Content="Length of Top:" Height="28" HorizontalAlignment="Left" Margin="24,99,0,0" Name="TopLengthLabel" VerticalAlignment="Top" Width="101" />
+                <Slider Height="23" HorizontalAlignment="Left" IsSnapToTickEnabled="True" Margin="131,99,0,0" Maximum="200" Minimum="1" Name="SideCDSlider" SmallChange="1" TickFrequency="1" TickPlacement="None" VerticalAlignment="Top" Width="100" />
+                <TextBox Height="23" HorizontalAlignment="Left" IsEnabled="True" IsReadOnly="False" Margin="233,99,0,0" Name="DisplaySideCDTextBox" VerticalAlignment="Top" Width="37" >
+                    <TextBox.Text>
+                        <Binding ElementName="SideCDSlider" Path="Value" />
+                    </TextBox.Text>
+                </TextBox>
+                <Button Content="Visualize" Height="23" HorizontalAlignment="Left" Margin="24,156,0,0" Name="VisualizeButton" VerticalAlignment="Top" Width="75" Click="VisualizeButton_Click" />
+                <Label Content="Height:" Height="28" Margin="24,126,354,0" Name="HeightLabel" VerticalAlignment="Top" />
+                <Slider Height="23" HorizontalAlignment="Left" IsSnapToTickEnabled="True" Margin="131,126,0,0" Maximum="200" Minimum="1" Name="HeightSlider" SmallChange="1" TickFrequency="1" TickPlacement="None" VerticalAlignment="Top" Width="100" />
+                <TextBox Height="23" HorizontalAlignment="Left" IsEnabled="True" IsReadOnly="False" Margin="233,126,0,0" Name="DisplayHeightTextBox" VerticalAlignment="Top" Width="37" >
+                    <TextBox.Text>
+                        <Binding ElementName="HeightSlider" Path="Value"/>
+                    </TextBox.Text>
+                </TextBox>
+                <TextBlock Height="140" HorizontalAlignment="Left" Margin="286,45,0,0" Name="TrapezoidStatisticsTextBlock" Text="" VerticalAlignment="Top" Width="187" FontFamily="Courier New" />
+                <Canvas Height="306" HorizontalAlignment="Left" Margin="6,191,0,0" Name="TrapezoidCanvas" VerticalAlignment="Top" Width="467" FlowDirection="RightToLeft" Background="#FFCCCAE5" />
+            </Grid>
+        </TabItem>
+    </TabControl>
+</Window>

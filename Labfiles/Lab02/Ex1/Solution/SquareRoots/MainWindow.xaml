@@ -1,0 +1,11 @@
+﻿<Window x:Class="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox Height="28" HorizontalAlignment="Left" Margin="12,12,0,0" Name="InputTextBox" VerticalAlignment="Top" Width="398" Text="0.00" />
+        <Button Content="Calculate" Height="23" HorizontalAlignment="Right" Margin="0,11,12,0" Name="CalculateButton" VerticalAlignment="Top" Width="75" />
+        <Label Content="0.00 (Using .NET Framework)" Height="28" HorizontalAlignment="Left" Margin="12,41,0,0" Name="FrameworkLabel" VerticalAlignment="Top" Width="479" />
+        <Label Content="0.00 (Using Newton)" Height="28" HorizontalAlignment="Left" Margin="12,75,0,0" Name="NewtonLabel" VerticalAlignment="Top" Width="479" />
+    </Grid>
+</Window>

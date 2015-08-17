@@ -1,0 +1,47 @@
+﻿<Window x:Class="DataAnalyzer"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Stress Data Analyzer" ResizeMode="NoResize" Loaded="Window_Loaded" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" d:DesignHeight="543" d:DesignWidth="616" SizeToContent="WidthAndHeight" Name="DataAnalyzer">
+    <Grid>
+        <GroupBox Header="Criteria" Height="147" HorizontalAlignment="Left" Margin="12,12,0,0" Name="criteria" VerticalAlignment="Top" Width="570">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="57*" />
+                    <ColumnDefinition Width="444*" />
+                </Grid.ColumnDefinitions>
+                <DatePicker HorizontalAlignment="Left" Margin="94,11,0,0" Name="StartDatePicker" VerticalAlignment="Top" Grid.Column="1" />
+                <Label Content="From:" Height="28" Margin="52,11,0,0" Name="Fromlabel1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="44" Grid.Column="1" />
+                <Label Content="To:" Height="28" Margin="280,8,186,0" Name="ToLabel1" VerticalAlignment="Top" Grid.Column="1" Width="29" />
+                <DatePicker HorizontalAlignment="Left" Margin="315,11,0,0" Name="EndDatePicker" VerticalAlignment="Top" Grid.Column="1" />
+                <Label Content="From:" Height="28" HorizontalAlignment="Left" Margin="51,0,0,59" Name="FromLabel2" VerticalAlignment="Bottom" Width="45" Grid.Column="1" />
+                <Label Content="To:" Height="28" Margin="280,37,186,0" Name="ToLabel2" VerticalAlignment="Top" Grid.Column="1" Width="29" />
+                <Label Content="From:" Height="28" HorizontalAlignment="Left" Margin="52,0,0,34" Name="FromLabel3" VerticalAlignment="Bottom" Width="44" Grid.Column="1" />
+                <Label Content="To:" Height="28" Margin="280,62,186,0" Name="ToLabel3" VerticalAlignment="Top" Grid.Column="1" Width="29" />
+                <Label Content="From:" Height="28" HorizontalAlignment="Left" Margin="52,88,0,0" Name="FromLabel4" VerticalAlignment="Top" Width="44" Grid.Column="1" />
+                <Label Content="To:" Height="28" Margin="280,85,186,0" Name="ToLabel4" VerticalAlignment="Top" Grid.Column="1" Width="29" />
+                <Slider Height="23" HorizontalAlignment="Left" Margin="94,42,0,0" Name="FromTemperatureSlider" VerticalAlignment="Top" Width="100" Maximum="500" IsSnapToTickEnabled="True" Minimum="200" Grid.Column="1" />
+                <TextBox Text="{Binding ElementName=FromTemperatureSlider, Path=Value}" Height="23" HorizontalAlignment="Left" Margin="206,42,0,0" Name="displayFromTemperature" VerticalAlignment="Top" Width="68" IsReadOnly="False" Grid.Column="1" />
+                <Slider Height="23" HorizontalAlignment="Left" Margin="315,42,0,0" Name="ToTemperatureSlider" VerticalAlignment="Top" Width="100" Maximum="500" IsSnapToTickEnabled="True" Minimum="100" Value="500" Grid.Column="1" />
+                <TextBox Height="23" HorizontalAlignment="Left" IsReadOnly="False" Margin="421,42,0,0" Name="DisplayToTemperatureTextBox" Text="{Binding ElementName=ToTemperatureSlider, Path=Value}" VerticalAlignment="Top" Width="68" Grid.Column="1" />
+                <Slider Height="23" HorizontalAlignment="Left" IsSnapToTickEnabled="True" Margin="94,69,0,0" Maximum="5000" Name="FromAppliedStressSlider" VerticalAlignment="Top" Width="100" Minimum="10" Grid.Column="1" />
+                <TextBox Height="23" HorizontalAlignment="Left" IsReadOnly="False" Margin="206,69,0,0" Name="DisplayFromAppliedStressTextBox" Text="{Binding ElementName=FromAppliedStressSlider, Path=Value}" VerticalAlignment="Top" Width="68" Grid.Column="1" />
+                <Slider Height="23" HorizontalAlignment="Left" IsSnapToTickEnabled="True" Margin="315,69,0,0" Maximum="5000" Name="ToAppliedStressSlider" VerticalAlignment="Top" Width="100" Value="5000" Grid.Column="1" />
+                <TextBox Height="23" HorizontalAlignment="Left" IsReadOnly="False" Margin="421,69,0,0" Name="DisplayToAppliedStressTextBox" Text="{Binding ElementName=ToAppliedStressSlider, Path=Value}" VerticalAlignment="Top" Width="68" Grid.Column="1" />
+                <Slider Height="23" HorizontalAlignment="Left" IsSnapToTickEnabled="True" Margin="94,95,0,0" Maximum="1500" Name="FromDeflectionSlider" VerticalAlignment="Top" Width="100" Grid.Column="1" />
+                <TextBox Height="23" HorizontalAlignment="Left" IsReadOnly="False" Margin="206,95,0,0" Name="DisplayFromDeflectionTextBox" Text="{Binding ElementName=FromDeflectionSlider, Path=Value}" VerticalAlignment="Top" Width="68" Grid.Column="1" />
+                <Slider Height="23" HorizontalAlignment="Left" IsSnapToTickEnabled="True" Margin="315,95,0,0" Maximum="1500" Name="ToDeflectionSlider" VerticalAlignment="Top" Width="100" Value="1500" Grid.Column="1" />
+                <TextBox Height="23" HorizontalAlignment="Left" IsReadOnly="False" Margin="421,95,0,0" Name="DisplayToDeflectionTextBox" Text="{Binding ElementName=ToDeflectionSlider, Path=Value}" VerticalAlignment="Top" Width="68" Grid.Column="1" />
+                <Label Content="Test Date" Height="28" HorizontalAlignment="Left" Margin="1,11,0,0" Name="TestDateLabel" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2" />
+                <Label Content="Temperature (K)" Height="28" HorizontalAlignment="Left" Margin="2,37,0,0" Name="TemperatureLabel" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2" />
+                <Label Content="Applied Stress (kN)" Height="28" HorizontalAlignment="Left" Margin="2,62,0,0" Name="AppliedStressLabel" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2" />
+                <Label Content="Deflection (mm)" Height="28" HorizontalAlignment="Left" Margin="1,88,0,0" Name="DeflectionLabel" VerticalAlignment="Top" Width="125" Grid.ColumnSpan="2" />
+            </Grid>
+        </GroupBox>
+        <TextBox Height="270" Margin="12,194,13,0" Name="ResultsTextBox" VerticalAlignment="Top" IsReadOnly="True" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" FontSize="15" />
+        <Button Content="Display" Height="23" HorizontalAlignment="Left" Margin="24,165,0,0" Name="DisplayResultsButton" VerticalAlignment="Top" Width="75" Click="DisplayResultsButton_Click" IsEnabled="False" />
+        <StatusBar Height="23" HorizontalAlignment="Left" Margin="0,481,0,0" Name="StatusStatusBar" VerticalAlignment="Top" Width="595">
+            <StatusBarItem Content="Ready" Name="StatusMessageItem" />
+        </StatusBar>
+        <Label Content="" Height="28" HorizontalAlignment="Left" Margin="120,164,0,0" Name="QueryTimeLabel" VerticalAlignment="Top" Width="120" />
+    </Grid>
+</Window>

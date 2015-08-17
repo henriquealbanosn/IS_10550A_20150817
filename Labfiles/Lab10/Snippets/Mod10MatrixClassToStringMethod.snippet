@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>
+        Mod10MatrixClassToStringMethod      
+      </Title>
+      <Shortcut>
+        Mod10MatrixClassToStringMethod
+      </Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="VB">
+        <![CDATA[Public Overrides Function ToString() As String
+            Dim builder As New StringBuilder()
+
+            ' Iterate over every row in the matrix.
+            For x As Integer = 0 To data.GetLength(0) - 1
+                ' Iterate over every column in the matrix.
+                For y As Integer = 0 To data.GetLength(1) - 1
+                    builder.AppendFormat("{0}" & vbTab, data(x, y))
+                Next
+
+                builder.Append(Environment.NewLine)
+            Next
+
+            Return builder.ToString()
+        End Function]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

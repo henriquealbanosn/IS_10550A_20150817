@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>
+        Mod12Add
+      </Title>
+      <Shortcut>
+        Mod12Add
+      </Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="VB">
+        <![CDATA[    Dim currentNodeValue As TItem = Me.NodeData
+
+    ' Check if the item should be inserted in the left tree.
+    If currentNodeValue.CompareTo(newItem) > 0 Then
+        ' Is the left tree null?
+        If Me.LeftTree Is Nothing Then
+            Me.LeftTree = New Tree(Of TItem)(newItem)
+        Else ' Call the Add method recursively.
+            Me.LeftTree.Add(newItem)
+        End If
+    Else ' Insert in the right tree.
+        ' Is the right tree null?
+        If Me.RightTree Is Nothing Then
+            Me.RightTree = New Tree(Of TItem)(newItem)
+        Else ' Call the Add method recursively.
+            Me.RightTree.Add(newItem)
+        End If
+    End If
+]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,5 @@
+E:\Labfiles\Lab 14\StressTestResult\StressTestResult\obj\Debug\ResolveAssemblyReference.cache
+E:\Labfiles\Lab 14\StressTestResult\StressTestResult\bin\Debug\StressTestResult.dll
+E:\Labfiles\Lab 14\StressTestResult\StressTestResult\bin\Debug\StressTestResult.pdb
+E:\Labfiles\Lab 14\StressTestResult\StressTestResult\obj\Debug\StressTestResult.dll
+E:\Labfiles\Lab 14\StressTestResult\StressTestResult\obj\Debug\StressTestResult.pdb

@@ -1,0 +1,20 @@
+E:\Microsoft Press\Visual CSharp Step By Step\Chapter 19\IteratorBinaryTree - Complete\BinaryTree\bin\Debug\BinaryTree.dll
+E:\Microsoft Press\Visual CSharp Step By Step\Chapter 19\IteratorBinaryTree - Complete\BinaryTree\bin\Debug\BinaryTree.pdb
+E:\Microsoft Press\Visual CSharp Step By Step\Chapter 19\IteratorBinaryTree - Complete\BinaryTree\obj\Debug\ResolveAssemblyReference.cache
+E:\Microsoft Press\Visual CSharp Step By Step\Chapter 19\IteratorBinaryTree - Complete\BinaryTree\obj\Debug\BinaryTree.dll
+E:\Microsoft Press\Visual CSharp Step By Step\Chapter 19\IteratorBinaryTree - Complete\BinaryTree\obj\Debug\BinaryTree.pdb
+E:\Labfiles\Code\Code\IteratorBinaryTree - Complete\BinaryTree\bin\Debug\BinaryTree.dll
+E:\Labfiles\Code\Code\IteratorBinaryTree - Complete\BinaryTree\bin\Debug\BinaryTree.pdb
+E:\Labfiles\Code\Code\IteratorBinaryTree - Complete\BinaryTree\obj\Debug\ResolveAssemblyReference.cache
+E:\Labfiles\Code\Code\IteratorBinaryTree - Complete\BinaryTree\obj\Debug\BinaryTree.dll
+E:\Labfiles\Code\Code\IteratorBinaryTree - Complete\BinaryTree\obj\Debug\BinaryTree.pdb
+E:\Labfiles\Lab 14\BinaryTree\BinaryTree\bin\Debug\BinaryTree.dll
+E:\Labfiles\Lab 14\BinaryTree\BinaryTree\bin\Debug\BinaryTree.pdb
+E:\Labfiles\Lab 14\BinaryTree\BinaryTree\obj\Debug\ResolveAssemblyReference.cache
+E:\Labfiles\Lab 14\BinaryTree\BinaryTree\obj\Debug\BinaryTree.dll
+E:\Labfiles\Lab 14\BinaryTree\BinaryTree\obj\Debug\BinaryTree.pdb
+D:\Labfiles\Lab14\BinaryTree\bin\Debug\BinaryTree.dll
+D:\Labfiles\Lab14\BinaryTree\bin\Debug\BinaryTree.pdb
+D:\Labfiles\Lab14\BinaryTree\obj\Debug\ResolveAssemblyReference.cache
+D:\Labfiles\Lab14\BinaryTree\obj\Debug\BinaryTree.dll
+D:\Labfiles\Lab14\BinaryTree\obj\Debug\BinaryTree.pdb

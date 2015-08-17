@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+
+    <Header>
+      <Title>
+        Mod9Disposing
+      </Title>
+      <Shortcut>
+        Mod9Disposing
+      </Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="VB">
+        <![CDATA[            ' TODO: dispose managed state (managed objects).
+            ' Check that the log file is closed; if it is not closed, log
+            ' a message and close it.
+            If Not loggingFileWriter Is Nothing Then
+                loggingFileWriter.WriteLine("Object Disposed")
+                loggingFileWriter.Flush()
+                loggingFileWriter.Close()
+                loggingFileWriter = Nothing
+            End If
+]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

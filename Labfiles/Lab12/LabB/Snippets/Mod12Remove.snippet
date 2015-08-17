@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>
+        Mod12Remove
+      </Title>
+      <Shortcut>
+        Mod12Remove
+      </Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="VB">
+        <![CDATA[    ''' <summary>
+    ''' Removes an item from the tree.
+    ''' <para>
+    ''' Note that you cannot remove the last node from the tree.
+    ''' </para>
+    ''' <para>
+    ''' If the item is not found in the tree, nothing happens.
+    ''' </para>
+    ''' <para>
+    ''' The remove algorithm needs to treat removing the root node differently from other
+    ''' nodes - if the root node has no children it can't be removed.
+    ''' </para>
+    ''' <para>
+    ''' In general remove has to deal with 3 scenarios - nodes with no children,
+    ''' nodes with a single child, and nodes with two children.
+    ''' </para>
+    ''' </summary>
+    ''' <param name="itemToRemove"></param>
+    ''' <remarks></remarks>
+    Public Sub Remove(ByVal itemToRemove As TItem) Implements IBinaryTree(Of TItem).Remove
+        ' Cannot remove null.
+        If itemToRemove Is Nothing Then Return
+
+        ' Check if the item could be in the left tree.
+        If Me.NodeData.CompareTo(itemToRemove) > 0 AndAlso Not Me.LeftTree Is Nothing Then
+            ' Check the left tree.
+            ' Check 2 levels down the tree - cannot remove
+            ' 'this', only the LeftTree or RightTree properties.
+            If Me.LeftTree.NodeData.CompareTo(itemToRemove) = 0 Then
+                ' The LeftTree property has no children - set the
+                ' LeftTree property to null.
+                If Me.LeftTree.LeftTree Is Nothing AndAlso Me.LeftTree.RightTree Is Nothing Then
+                    Me.LeftTree = Nothing
+                Else ' Remove LeftTree.
+                    RemoveNodeWithChildren(Me.LeftTree)
+                End If
+            Else
+                ' Keep looking - call the Remove method recursively.
+                Me.LeftTree.Remove(itemToRemove)
+            End If
+        End If
+
+        ' Check if the item could be in the right tree.?
+        If Me.NodeData.CompareTo(itemToRemove) < 0 AndAlso Not Me.RightTree Is Nothing Then
+            ' Check the right tree.
+            ' Check 2 levels down the tree - cannot remove
+            ' 'this', only the LeftTree or RightTree properties.
+            If Me.RightTree.NodeData.CompareTo(itemToRemove) = 0 Then
+                ' The RightTree property has no children – set the
+                ' RightTree property to null.
+                If Me.RightTree.LeftTree Is Nothing AndAlso Me.RightTree.RightTree Is Nothing Then
+                    Me.RightTree = Nothing
+                Else ' Remove the RightTree.
+                    RemoveNodeWithChildren(Me.RightTree)
+                End If
+            Else
+                ' Keep looking - call the Remove method recursively.
+                Me.RightTree.Remove(itemToRemove)
+            End If
+        End If
+
+        ' This will only apply at the root node.
+        If Me.NodeData.CompareTo(itemToRemove) = 0 Then
+            ' No children - do nothing, a tree must have at least
+            ' one node. 
+            If Me.LeftTree Is Nothing AndAlso Me.RightTree Is Nothing Then
+                Return
+            Else ' The root node has children.
+                RemoveNodeWithChildren(Me)
+            End If
+        End If
+    End Sub]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

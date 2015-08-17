@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BinaryTreeTestHarness", "BinaryTreeTestHarness\BinaryTreeTestHarness.vbproj", "{BC678663-1CAF-41A0-AC8E-383C61820BFB}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BinaryTree", "BinaryTree\BinaryTree.vbproj", "{6E6E70D6-B594-404E-BE1D-69B6CB5C8C94}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "StressTestResult", "StressTestResult\StressTestResult.vbproj", "{97F39160-763F-48BA-A291-831A864055F7}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TestBinaryTree", "TestBinaryTree\TestBinaryTree.vbproj", "{B4B11976-B08F-48CE-A312-52129E774F17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{84023F9F-9521-4066-A2E3-39DBEC5830E5}"
+	ProjectSection(SolutionItems) = preProject
+		CustomCollections.vsmdi = CustomCollections.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = CustomCollections.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC678663-1CAF-41A0-AC8E-383C61820BFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC678663-1CAF-41A0-AC8E-383C61820BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC678663-1CAF-41A0-AC8E-383C61820BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC678663-1CAF-41A0-AC8E-383C61820BFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E6E70D6-B594-404E-BE1D-69B6CB5C8C94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E6E70D6-B594-404E-BE1D-69B6CB5C8C94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E6E70D6-B594-404E-BE1D-69B6CB5C8C94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E6E70D6-B594-404E-BE1D-69B6CB5C8C94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97F39160-763F-48BA-A291-831A864055F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F39160-763F-48BA-A291-831A864055F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F39160-763F-48BA-A291-831A864055F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F39160-763F-48BA-A291-831A864055F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4B11976-B08F-48CE-A312-52129E774F17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4B11976-B08F-48CE-A312-52129E774F17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4B11976-B08F-48CE-A312-52129E774F17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4B11976-B08F-48CE-A312-52129E774F17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

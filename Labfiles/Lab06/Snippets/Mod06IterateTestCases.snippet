@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>
+        Mod06IterateTestCases
+      </Title>
+      <Shortcut>
+        Mod06IterateTestCases
+      </Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="VB">
+        <![CDATA[For i As Integer = 0 To stressTestCases.Length -1
+    currentTestCase = stressTestCases(i)
+    currentTestCase.PerformStressTest()
+    TestListBox.Items.Add(currentTestCase)
+    currentTestResult = currentTestCase.GetStressTestResult()
+    ResultListBox.Items.Add(currentTestResult.Result & " " &
+        currentTestResult.ReasonForFailure)
+Next
+]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>
+        Mod12WalkTree
+      </Title>
+      <Shortcut>
+        Mod12WalkTree
+      </Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="VB">
+        <![CDATA[    ' Recursive descent of the left tree.
+    If Not Me.LeftTree Is Nothing Then
+        Me.LeftTree.WalkTree()
+    End If
+
+    Console.WriteLine(Me.NodeData.ToString())
+
+    ' Recursive descent of the right tree.
+    If Not Me.RightTree Is Nothing Then
+        Me.RightTree.WalkTree()
+    End If
+]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

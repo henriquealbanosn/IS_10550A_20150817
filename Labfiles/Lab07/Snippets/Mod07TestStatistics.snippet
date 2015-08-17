@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>
+        Mod07TestStatistics
+      </Title>
+      <Shortcut>
+        Mod07TestStatistics
+      </Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="VB">
+        <![CDATA[    Dim statistics As TestStatistics = StressTestCase.GetStatistics()
+    StatisticsLabel1.Content = String.Format(
+        "Number of tests: {0}, Failures: {1}",
+        statistics.GetNumberOfTestsPerformed(),
+        statistics.GetNumberOfFailures())
+    statistics.IncrementTests(true)
+    statistics = StressTestCase.GetStatistics()
+    StatisticsLabel2.Content = String.Format(
+        "Number of tests: {0}, Failures: {1}",
+        statistics.GetNumberOfTestsPerformed(),
+        statistics.GetNumberOfFailures())
+]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

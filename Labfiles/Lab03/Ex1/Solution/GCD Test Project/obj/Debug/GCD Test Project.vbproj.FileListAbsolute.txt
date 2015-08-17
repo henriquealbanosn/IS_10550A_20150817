@@ -1,0 +1,10 @@
+P:\Labfiles\Lab03\Ex1\Solution\GCD Test Project\bin\Debug\GCD Test Project.dll
+P:\Labfiles\Lab03\Ex1\Solution\GCD Test Project\bin\Debug\GCD Test Project.pdb
+P:\Labfiles\Lab03\Ex1\Solution\GCD Test Project\bin\Debug\GCD Test Project.xml
+P:\Labfiles\Lab03\Ex1\Solution\GCD Test Project\bin\Debug\GreatestCommonDivisor.exe
+P:\Labfiles\Lab03\Ex1\Solution\GCD Test Project\bin\Debug\GreatestCommonDivisor.pdb
+P:\Labfiles\Lab03\Ex1\Solution\GCD Test Project\bin\Debug\GreatestCommonDivisor.xml
+P:\Labfiles\Lab03\Ex1\Solution\GCD Test Project\obj\Debug\ResolveAssemblyReference.cache
+P:\Labfiles\Lab03\Ex1\Solution\GCD Test Project\obj\Debug\GCD Test Project.dll
+P:\Labfiles\Lab03\Ex1\Solution\GCD Test Project\obj\Debug\GCD Test Project.xml
+P:\Labfiles\Lab03\Ex1\Solution\GCD Test Project\obj\Debug\GCD Test Project.pdb

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>
+        Mod13IndexTreeMethod
+      </Title>
+      <Shortcut>
+        Mod13IndexTreeMethod
+      </Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="VB">
+        <![CDATA[    Private Function IndexTree(ByVal index As Integer) As Integer
+        If Not Me.LeftTree Is Nothing Then
+            index = Me.LeftTree.IndexTree(index)
+        End If
+
+        Me.position = index
+
+        index +=1
+
+        If Not Me.RightTree Is Nothing Then
+            index = Me.RightTree.IndexTree(index)
+        End If
+
+        Return index
+    End Function
+]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

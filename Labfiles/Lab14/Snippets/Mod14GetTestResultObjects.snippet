@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+
+    <Header>
+      <Title>
+        Mod14GetTestResultObjects
+      </Title>
+      <Shortcut>
+        Mod14GetTestResultObjects
+      </Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="VB">
+        <![CDATA[    Dim query As IEnumerable(Of TestResult) =
+        From result In stressData
+        Where result.TestDate >= dateStart AndAlso
+              result.TestDate <= dateEnd AndAlso
+              result.Temperature >= temperatureStart AndAlso
+              result.Temperature <= temperatureEnd AndAlso
+              result.AppliedStress >= appliedStressStart AndAlso
+              result.AppliedStress <= appliedStressEnd AndAlso
+              result.Deflection >= deflectionStart AndAlso
+              result.Deflection <= deflectionEnd
+        Order By result.TestDate
+        Select result
+]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

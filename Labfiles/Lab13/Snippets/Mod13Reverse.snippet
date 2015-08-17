@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>
+        Mod13Reverse
+      </Title>
+      <Shortcut>
+        Mod13Reverse
+      </Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="VB">
+        <![CDATA[    Dim tempQueue As New Queue(Of TItem)
+
+    If Not Me.RightTree Is Nothing Then
+        For Each itm In Me.RightTree.Reverse
+            tempQueue.Enqueue(itm)
+        Next
+    End If
+
+    tempQueue.Enqueue(Me.NodeData)
+
+    If Not Me.LeftTree Is Nothing Then
+        For Each itm In Me.LeftTree.Reverse
+            tempQueue.Enqueue(itm)
+        Next
+    End If
+
+    Return tempQueue
+]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

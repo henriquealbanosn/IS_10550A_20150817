@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>
+        Mod12RemoveNodeWithChildren
+      </Title>
+      <Shortcut>
+        Mod12RemoveNodeWithChildren
+      </Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="VB">
+        <![CDATA[''' <summary>
+    ''' Utility method used by the Remove method.
+    ''' <para>
+    ''' It removes a node that has either one or two children.
+    ''' </para>
+    ''' </summary>
+    ''' <param name="node"></param>
+    ''' <remarks></remarks>
+    Private Sub RemoveNodeWithChildren(ByVal node As Tree(Of TItem))
+        ' Check whether the node has children.
+        If node.LeftTree Is Nothing AndAlso node.RightTree Is Nothing Then
+            Throw New ArgumentException("Node has no children")
+        End If
+
+        ' The tree node has only one child - replace the
+        ' tree node with its child node.
+        If node.LeftTree Is Nothing Xor node.RightTree Is Nothing Then
+            If node.LeftTree Is Nothing Then
+                node.CopyNodeToThis(node.RightTree)
+            Else
+                node.CopyNodeToThis(node.LeftTree)
+            End If
+        Else
+            ' The tree node has two children - replace the tree node's value
+            ' with its "in order successor" node value and then remove the
+            ' in order successor node.
+            ' Find the in order successor – the leftmost descendant of
+            ' its RightTree node.
+            Dim successor As Tree(Of TItem) = GetLeftMostDescendant(node.RightTree)
+
+            ' Copy the node value from the in order successor.
+            node.NodeData = successor.NodeData
+
+            ' Remove the in order successor node.
+            If node.RightTree.RightTree Is Nothing AndAlso node.RightTree.LeftTree Is Nothing Then
+                node.RightTree = Nothing ' The successor node had no
+                ' children.
+            Else
+                node.RightTree.Remove(successor.NodeData)
+            End If
+        End If
+    End Sub]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

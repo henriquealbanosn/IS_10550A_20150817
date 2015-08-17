@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+GCDTestProject
+</name>
+</assembly>
+<members>
+<member name="P:GCD_Test_Project.GCDAlgorithmsTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:GCD_Test_Project.GCDAlgorithmsTest.FindGCDEuclidTest">
+	<summary>
+A test for FindGCDEuclid
+</summary>
+</member><member name="T:GCD_Test_Project.GCDAlgorithmsTest">
+	<summary>
+This is a test class for GCDAlgorithmsTest and is intended
+to contain all GCDAlgorithmsTest Unit Tests
+</summary>
+</member>
+</members>
+</doc>

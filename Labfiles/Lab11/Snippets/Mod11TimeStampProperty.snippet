@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>
+        Mod11TimeStampProperty
+      </Title>
+      <Shortcut>
+        Mod11TimeStampProperty
+      </Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="VB">
+        <![CDATA[    Private heartBeatTimeStamp As DateTime
+    Public Property TimeStamp As DateTime
+        Get
+            Return heartBeatTimeStamp
+        End Get
+        Private Set(ByVal value As DateTime)
+            heartBeatTimeStamp = value
+        End Set
+    End Property
+]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

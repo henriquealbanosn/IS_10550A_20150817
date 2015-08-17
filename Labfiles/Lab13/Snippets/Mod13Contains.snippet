@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>
+        Mod13Contains
+      </Title>
+      <Shortcut>
+        Mod13Contains
+      </Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="VB">
+        <![CDATA[    If NodeData.CompareTo(item) = 0 Then
+        Return True
+    End If
+
+    If NodeData.CompareTo(item) > 0 Then
+        If Not Me.LeftTree Is Nothing Then
+            Return Me.LeftTree.Contains(item)
+        End If
+    Else
+        If Not Me.RightTree Is Nothing Then
+            Return Me.RightTree.Contains(item)
+        End If
+    End If
+
+    Return False
+]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

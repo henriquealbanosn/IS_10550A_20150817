@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+
+    <Header>
+      <Title>
+        Mod10IterateMatrixRowsOperatorMinus
+      </Title>
+      <Shortcut>
+        Mod10IterateMatrixRowsOperatorMinus
+      </Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="VB">
+        <![CDATA[        ' Iterate over every row in the matrix.
+        For x As Integer = 0 To matrix1.data.GetLength(0) - 1
+            ' Iterate over every column in the matrix.
+            For y As Integer = 0 To matrix1.data.GetLength(1) - 1
+                newMatrix.data(x, y) = matrix1.data(x, y) - matrix2.data(x, y)
+            Next
+        Next
+]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

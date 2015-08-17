@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>
+        Mod14SelectCaseobKey
+      </Title>
+      <Shortcut>
+        Mod14SelectCaseobKey
+      </Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="VB">
+        <![CDATA[    Select Case obKey
+        Case OrderByKey.ByDate
+            ' If the user selected the date column, set the propty
+            ' object to TestDate.
+            propty = testResultType.GetProperty("TestDate")
+        Case OrderByKey.ByTemperature
+            ' If the user selected the temperature column, set the
+            ' propty object to Temperature.
+            propty = testResultType.GetProperty("Temperature")
+        Case OrderByKey.ByAppliedStress
+            ' If the user selected the applied stress column, set the
+            ' propty object to AppliedStress.
+            propty = testResultType.GetProperty("AppliedStress")
+        Case OrderByKey.ByDeflection
+            ' If the user selected the deflection column, set the
+            ' propty object to Deflection.
+            propty = testResultType.GetProperty("Deflection")
+    End Select
+]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

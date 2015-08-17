@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+
+    <Header>
+      <Title>
+        Mod14ReadTestData
+      </Title>
+      <Shortcut>
+        Mod14ReadTestData
+      </Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="VB">
+        <![CDATA[Private Sub ReadTestData()
+        Try
+            ' Open a stream over the file that holds the test data.
+            Using readStream As FileStream = File.Open(stressDataFilename, FileMode.Open)
+                ' The data is serialized as TestResult instances.
+                ' Use a BinaryFormatter object to read the stream and
+                ' deserialize the data.
+                Dim formatter As New BinaryFormatter()
+                Dim initialNode As TestResult =
+                    CType(formatter.Deserialize(readStream), TestResult)
+
+                ' Create the binary tree and use the first item retrieved
+                ' as the root node. (Note: The tree will likely be 
+                ' unbalanced, because it is probable that most nodes will
+                ' have a value that is greater than or equal to the value in
+                ' this root node - this is because of the way in which the
+                ' test results are generated and the fact that the TestResult 
+                ' class uses the deflection as the discriminator when it
+                ' compares instances.)
+                stressData = New Tree(Of TestResult)(initialNode)
+
+                ' Read the TestResult instances from the rest of the file
+                ' and add them into the binary tree.
+                While readStream.Position < readStream.Length
+                    Dim data As TestResult =
+                        CType(formatter.Deserialize(readStream), TestResult)
+                    stressData.Insert(data)
+                End While
+            End Using
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+    End Sub]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

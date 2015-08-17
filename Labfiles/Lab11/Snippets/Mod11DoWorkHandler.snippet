@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>
+        Mod11DoWorkHandler
+      </Title>
+      <Shortcut>
+        Mod11DoWorkHandler
+      </Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="VB">
+        <![CDATA[AddHandler heartBeatTimer.DoWork,
+    Sub(o, args)
+        While True
+            Thread.Sleep(HeartBeatInterval)
+
+            If disposedValue Then
+                Exit While
+            End If
+
+            heartBeatTimer.ReportProgress(0)
+        End While
+    End Sub
+]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

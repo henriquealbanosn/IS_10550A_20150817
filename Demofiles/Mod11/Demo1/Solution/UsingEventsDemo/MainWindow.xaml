@@ -1,0 +1,9 @@
+﻿<Window x:Class="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="122" Width="239">
+    <Grid Height="82" Width="218">
+        <Button Content="Start" Height="23" HorizontalAlignment="Left" Margin="12,12,0,0" Name="StartBbutton" VerticalAlignment="Top" Width="196" Click="StartButton_Click" />
+        <Button Content="Stop" Height="23" HorizontalAlignment="Left" Margin="12,41,0,0" Name="StopButton" VerticalAlignment="Top" Width="196" Click="StopButton_Click" />
+    </Grid>
+</Window>

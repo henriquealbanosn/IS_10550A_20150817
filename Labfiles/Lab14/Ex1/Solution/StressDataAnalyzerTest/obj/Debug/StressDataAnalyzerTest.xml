@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+StressDataAnalyzerTest
+</name>
+</assembly>
+<members>
+<member name="P:StressDataAnalyzerTest.DataAnalyzerTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:StressDataAnalyzerTest.DataAnalyzerTest.CreateQueryandFormatResultsTest">
+	<summary>
+A test for FormatResults
+</summary>
+</member><member name="T:StressDataAnalyzerTest.DataAnalyzerTest">
+	<summary>
+This is a test class for DataAnalyzerTest and is intended
+to contain all DataAnalyzerTest Unit Tests
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,127 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+StressDataAnalyzer
+</name>
+</assembly>
+<members>
+<member name="M:StressDataAnalyzer.DataAnalyzer.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:StressDataAnalyzer.DataAnalyzer">
+	<summary>
+DataAnalyzer
+</summary>
+</member><member name="M:StressDataAnalyzer.Application.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:StressDataAnalyzer.Application.Main">
+	<summary>
+Application Entry Point.
+</summary>
+</member><member name="T:StressDataAnalyzer.Application">
+	<summary>
+Application
+</summary>
+</member><member name="M:StressDataAnalyzer.DataAnalyzer.DisplayResultsButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+	<summary>
+ Event-handling method for the Click event of the displayResults button.
+ <para>
+ This method retrieves the query criteria entered by the user on the form and then calls
+ the CreateQuery method to generate an enumerable result set.
+ </para>
+ The results are formatted by using the FormatResults method, 
+ and are then displayed in the results TextBox control on the form.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:StressDataAnalyzer.DataAnalyzer.CreateQuery(System.DateTime,System.DateTime,System.Int16,System.Int16,System.Int16,System.Int16,System.Int16,System.Int16)">
+	<summary>
+ Method that generates an enumerable collection of TestResult items from the stressData
+ binary tree, based on the criteria specified by the user. All data fetched will fall within
+ the range specified by these criteria.
+ </summary>
+	<param name="dateStart">
+ The start date criterion.
+ </param>
+	<param name="dateEnd">
+ The end date criterion.
+ </param>
+	<param name="temperatureStart">
+ The lower temperature criterion,
+ </param>
+	<param name="temperatureEnd">
+ The upper temperature criterion.
+ </param>
+	<param name="appliedStressStart">
+ The lower applied stress criterion.
+ </param>
+	<param name="appliedStressEnd">
+ The upper applied stress criterion.
+ </param>
+	<param name="deflectionStart">
+ The lower deflection criterion.
+ </param>
+	<param name="deflectionEnd">
+ The upper deflection criterion.
+ </param>
+	<returns>
+ An IEnumerable&lt;TestResult&gt; object that can be used to iterate through the results.
+ </returns>
+	<remarks></remarks>
+</member><member name="M:StressDataAnalyzer.DataAnalyzer.FormatResults(System.Collections.Generic.IEnumerable{StressTestResult.TestResult})">
+	<summary>
+ Fetch the data defined by the LINQ query specified as the parameter 
+ and format the results as a string.
+ </summary>
+	<param name="query">
+ The IEnumerable&lt;TestResult&gt;
+ </param>
+	<returns>
+ A formatted string that contains the data fetched by the query.
+ </returns>
+	<remarks></remarks>
+</member><member name="P:StressDataAnalyzer.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:StressDataAnalyzer.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:StressDataAnalyzer.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:StressDataAnalyzer.My.MyWpfExtension.Application">
+	<summary>
+ Returns the application object for the running application
+ </summary>
+</member><member name="P:StressDataAnalyzer.My.MyWpfExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:StressDataAnalyzer.My.MyWpfExtension.User">
+	<summary>
+ Returns information for the current user.  If you wish to run the application with the current 
+ Windows user credentials, call My.User.InitializeWithWindowsUser().
+ </summary>
+</member><member name="P:StressDataAnalyzer.My.MyWpfExtension.Log">
+	<summary>
+ Returns the application log. The listeners can be configured by the application's configuration file.
+ </summary>
+</member><member name="P:StressDataAnalyzer.My.MyWpfExtension.Windows">
+	<summary>
+ Returns the collection of Windows defined in the project.
+ </summary>
+</member><member name="T:StressDataAnalyzer.My.MyWpfExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for WPF
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,240 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+StressDataAnalyzer
+</name>
+</assembly>
+<members>
+<member name="M:StressDataAnalyzer.Application.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:StressDataAnalyzer.Application.Main">
+	<summary>
+Application Entry Point.
+</summary>
+</member><member name="T:StressDataAnalyzer.Application">
+	<summary>
+Application
+</summary>
+</member><member name="M:StressDataAnalyzer.DataAnalyzer.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:StressDataAnalyzer.DataAnalyzer">
+	<summary>
+DataAnalyzer
+</summary>
+</member><member name="P:StressDataAnalyzer.My.MyWpfExtension.Application">
+	<summary>
+ Returns the application object for the running application
+ </summary>
+</member><member name="P:StressDataAnalyzer.My.MyWpfExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:StressDataAnalyzer.My.MyWpfExtension.User">
+	<summary>
+ Returns information for the current user.  If you wish to run the application with the current 
+ Windows user credentials, call My.User.InitializeWithWindowsUser().
+ </summary>
+</member><member name="P:StressDataAnalyzer.My.MyWpfExtension.Log">
+	<summary>
+ Returns the application log. The listeners can be configured by the application's configuration file.
+ </summary>
+</member><member name="P:StressDataAnalyzer.My.MyWpfExtension.Windows">
+	<summary>
+ Returns the collection of Windows defined in the project.
+ </summary>
+</member><member name="T:StressDataAnalyzer.My.MyWpfExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for WPF
+ </summary>
+	<remarks></remarks>
+</member><member name="T:StressDataAnalyzer.OrderByKey">
+	<summary>
+ Enumeration that specifies the ways in which the user can sort data
+ </summary>
+	<remarks></remarks>
+</member><member name="M:StressDataAnalyzer.DataAnalyzer.Window_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+	<summary>
+ Event-handling method for the Loaded event of the WPF window.
+ <para>
+ This method calls readTestData to read in the test data and populate the binary tree with the results.
+ </para>
+	</summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:StressDataAnalyzer.DataAnalyzer.ReadTestData">
+	<summary>
+ Method that reads the test data from the file specified by the stressDataFileName string
+ and creates the stressData binary tree using this data.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:StressDataAnalyzer.DataAnalyzer.DisplayResultsButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+	<summary>
+ Event-handling method for the Click event of the displayResults button.
+ <para>
+ This method retrieves the query criteria entered by the user on the form and then calls
+ the CreateQuery method to generate an enumerable result set.
+ </para>
+ The results are formatted by using the FormatResults method, 
+ and are then displayed in the results TextBox control on the form.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:StressDataAnalyzer.DataAnalyzer.CreateQuery(System.Boolean,System.DateTime,System.DateTime,System.Boolean,System.Int16,System.Int16,System.Boolean,System.Int16,System.Int16,System.Boolean,System.Int16,System.Int16,StressDataAnalyzer.OrderByKey,System.Boolean,System.Int32)">
+	<summary>
+ Method that generates an enumerable collection of TestResult items from the stressData
+ binary tree, based on the criteria and sort key specified by the user. All data fetched will fall within
+ the range specified by these criteria.
+ </summary>
+	<param name="dateRangeSpecified">
+ A boolean that indicates whether the specified criteria for the test date data.
+ </param>
+	<param name="dateStart">
+ The start date criterion.
+ </param>
+	<param name="dateEnd">
+ The end date criterion.
+ </param>
+	<param name="temperatureRangeSpecified">
+ A boolean that indicates whether the specified criteria for the temperature data.
+ </param>
+	<param name="temperatureStart">
+ The lower temperature criterion,
+ </param>
+	<param name="temperatureEnd">
+ The upper temperature criterion.
+ </param>
+	<param name="appliedStressRangeSpecified">
+ A boolean that indicates whether the specified criteria for the applied stress data.
+ </param>
+	<param name="appliedStressStart">
+ The lower applied stress criterion.
+ </param>
+	<param name="appliedStressEnd">
+ The upper applied stress criterion.
+ </param>
+	<param name="deflectionRangeSpecified">
+ A boolean that indicates whether the specified criteria for the deflection data.
+ </param>
+	<param name="deflectionStart">
+ The lower deflection criterion.
+ </param>
+	<param name="deflectionEnd">
+ The upper deflection criterion.
+ </param>
+	<param name="obKey">
+	</param>
+ The sort key. Data will be retrieved in ascending order of this key.
+ <returns>
+ An IEnumerable&lt;TestResult&gt; object that can be used to iterate through the results.
+ </returns>
+	<remarks></remarks>
+</member><member name="M:StressDataAnalyzer.DataAnalyzer.FormatResults(System.Collections.Generic.IEnumerable{StressTestResult.TestResult})">
+	<summary>
+ Fetch the data defined by the LINQ query specified as the parameter 
+ and format the results as a string.
+ </summary>
+	<param name="query">
+ The IEnumerable&lt;TestResult&gt;
+ </param>
+	<returns>
+ A formatted string that contains the data fetched by the query.
+ </returns>
+	<remarks></remarks>
+</member><member name="M:StressDataAnalyzer.DataAnalyzer.BuildLambdaExpressionForQueryCriteria(System.Boolean,System.DateTime,System.DateTime,System.Boolean,System.Int16,System.Int16,System.Boolean,System.Int16,System.Int16,System.Boolean,System.Int16,System.Int16)">
+	<summary>
+ Method that dynamically generates a lambda expression that matches the query criteria specified by the user.
+ </summary>
+	<param name="dateRangeSpecified">
+ A boolean. It is true if the user specified a date range for filtering data.
+ </param>
+	<param name="startDate">
+ The lower value of the date range, if specified.
+ </param>
+	<param name="endDate">
+ The upper value of the date range, if specified.
+ </param>
+	<param name="temperatureRangeSpecified">
+ A boolean. It is true if the user specified a temperature range for filtering data.</param>
+	<param name="fromTemperature">
+ The lower value of the temperature range, if specified.
+ </param>
+	<param name="toTemperature">
+ The upper value of the temperature range, if specified.
+ </param>
+	<param name="appliedStressRangeSpecified">
+ A boolean. It is true if the user specified an applied stress range for filtering data.</param>
+	<param name="fromStressRange">
+ The lower value of the applied stress range, if specified.
+ </param>
+	<param name="toStressRange">
+ The upper value of the applied stress range, if specified.
+ </param>
+	<param name="deflectionRangeSpecified">
+ A boolean. It is true if the user specified a deflection range for filtering data.
+ </param>
+	<param name="fromDeflection">
+ The lower value of the deflection range, if specified.
+ </param>
+	<param name="toDeflection">
+ The upper value of the deflection range, if specified.
+ </param>
+	<returns>
+ An Expression that defines a lambda expression that filters data using the criteria specified by the user,
+ or null if the user did not specify any query criteria.
+ </returns>
+</member><member name="M:StressDataAnalyzer.DataAnalyzer.BuildDateExpressionBody(System.Boolean,System.DateTime,System.DateTime,System.Type,System.Linq.Expressions.ParameterExpression)">
+	<summary>
+ Method that builds the boolean expression that evaluates criteria specified for the date range.
+ </summary>
+	<param name="dateRangeSpecified">
+ Boolean value that indicates whether the user specified a date range.
+ </param>
+	<param name="startDate">
+ The start date specified by the user.
+ </param>
+	<param name="endDate">
+ The end date specified by the user.
+ </param>
+	<param name="testResultType">
+ The type of the TestResult structure holding the TestDate property
+ </param>
+	<param name="itemBeingQueried">
+ The parameter passed in to the lambda expression containing the item in the TestResult collection being examined.
+ </param>
+	<returns>
+ A boolean Expression object, or null if the user did not specify a date range.
+ </returns>
+</member><member name="M:StressDataAnalyzer.DataAnalyzer.BuildLambdaExpressionForOrderBy(StressDataAnalyzer.OrderByKey)">
+	<summary>
+ Method that generates a lambda expression that defines the order for presenting data.
+ </summary>
+	<param name="obKey">
+ A member of the OrderByKey enumeration. 
+ It specifies the key to order the data, or None if the user wants to use the default order
+ of the TestResult type
+ </param>
+	<returns>
+ An Expression that defines a lambda expression that orders data by the column specified by the user,
+ or null if the user has not specified a field to order by.
+ </returns>
+</member><member name="P:StressDataAnalyzer.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:StressDataAnalyzer.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:StressDataAnalyzer.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

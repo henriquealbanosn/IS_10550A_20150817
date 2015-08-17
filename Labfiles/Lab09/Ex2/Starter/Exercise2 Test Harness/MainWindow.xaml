@@ -1,0 +1,16 @@
+﻿<Window x:Class="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Exercise 2" Height="404" Width="499">
+    <Grid Height="364" Width="478">
+        <Button Content="Get Measurements" Height="23" HorizontalAlignment="Left" Margin="12,12,0,0" Name="GetMeasurementsButton" VerticalAlignment="Top" Width="454" Click="GetMeasurementsButton_Click" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="138,70,0,0" Name="MetricValueTextBox" VerticalAlignment="Top" Width="328" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="138,99,0,0" Name="ImperialValueTextBox" VerticalAlignment="Top" Width="328" />
+        <ListBox Height="223" HorizontalAlignment="Left" Margin="138,129,0,0" Name="RawDataValuesListBox" VerticalAlignment="Top" Width="328" />
+        <Label Content="Metric:" Height="28" HorizontalAlignment="Left" Margin="12,68,0,0" Name="metricLabel" VerticalAlignment="Top" Width="120" />
+        <Label Content="Imperial:" Height="28" HorizontalAlignment="Left" Margin="12,97,0,0" Name="ImperialLabel" VerticalAlignment="Top" Width="120" />
+        <Label Content="Raw Data:" Height="28" HorizontalAlignment="Left" Margin="12,129,0,0" Name="RawDataLabel" VerticalAlignment="Top" Width="120" />
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,41,12,0" Name="LoggingFileNameTextBox" VerticalAlignment="Top" Width="328" />
+        <Label Content="Logging File:" Height="28" HorizontalAlignment="Left" Margin="12,39,0,0" Name="LoggingFileLabel" VerticalAlignment="Top" Width="120" />
+    </Grid>
+</Window>

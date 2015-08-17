@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+
+    <Header>
+      <Title>
+        Mod8GetMeasurementsMethod
+      </Title>
+      <Shortcut>
+        Mod8GetMeasurementsMethod
+      </Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="VB">
+        <![CDATA[Private Sub GetMeasurements()
+    ReDim dataCaptured(9)
+
+    System.Threading.ThreadPool.QueueUserWorkItem(
+        Sub()
+            Dim x As Integer = 0
+            Dim timer As New Random()
+
+            While Not controller Is Nothing
+                System.Threading.Thread.Sleep(timer.Next(1000, 5000))
+                dataCaptured(x) = If(Not controller Is Nothing,
+                    controller.TakeMeasurement(), dataCaptured(x))
+                mostRecentMeasure = dataCaptured(x)
+                x += 1
+
+                If x = 10 Then
+                    x = 0
+                End If
+            End While
+        End Sub)
+End Sub
+]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,13 @@
+D:\MCT\10550A-ENU-Allfiles\Labfiles\Lab02\Ex1\Solution\SquareRoots\bin\Debug\SquareRoots.exe
+D:\MCT\10550A-ENU-Allfiles\Labfiles\Lab02\Ex1\Solution\SquareRoots\bin\Debug\SquareRoots.pdb
+D:\MCT\10550A-ENU-Allfiles\Labfiles\Lab02\Ex1\Solution\SquareRoots\bin\Debug\SquareRoots.xml
+D:\MCT\10550A-ENU-Allfiles\Labfiles\Lab02\Ex1\Solution\SquareRoots\obj\x86\Debug\MainWindow.baml
+D:\MCT\10550A-ENU-Allfiles\Labfiles\Lab02\Ex1\Solution\SquareRoots\obj\x86\Debug\MainWindow.g.vb
+D:\MCT\10550A-ENU-Allfiles\Labfiles\Lab02\Ex1\Solution\SquareRoots\obj\x86\Debug\Application.g.vb
+D:\MCT\10550A-ENU-Allfiles\Labfiles\Lab02\Ex1\Solution\SquareRoots\obj\x86\Debug\SquareRoots_MarkupCompile.cache
+D:\MCT\10550A-ENU-Allfiles\Labfiles\Lab02\Ex1\Solution\SquareRoots\obj\x86\Debug\SquareRoots.g.resources
+D:\MCT\10550A-ENU-Allfiles\Labfiles\Lab02\Ex1\Solution\SquareRoots\obj\x86\Debug\SquareRoots.Resources.resources
+D:\MCT\10550A-ENU-Allfiles\Labfiles\Lab02\Ex1\Solution\SquareRoots\obj\x86\Debug\SquareRoots.vbproj.GenerateResource.Cache
+D:\MCT\10550A-ENU-Allfiles\Labfiles\Lab02\Ex1\Solution\SquareRoots\obj\x86\Debug\SquareRoots.exe
+D:\MCT\10550A-ENU-Allfiles\Labfiles\Lab02\Ex1\Solution\SquareRoots\obj\x86\Debug\SquareRoots.xml
+D:\MCT\10550A-ENU-Allfiles\Labfiles\Lab02\Ex1\Solution\SquareRoots\obj\x86\Debug\SquareRoots.pdb

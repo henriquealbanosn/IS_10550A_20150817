@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>
+        Mod13IndexOf
+      </Title>
+      <Shortcut>
+        Mod13IndexOf
+      </Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="VB">
+        <![CDATA[    If item Is Nothing Then Return -1
+
+    ' Add the index values if they're not already there
+    If Me.position = -1 Then
+        Me.IndexTree(0)
+    End If
+
+    ' Find the item - searching the tree for a matching Node.
+    If item.CompareTo(Me.NodeData) < 0 Then
+        If Me.LeftTree Is Nothing Then
+            Return -1
+        End If
+
+        Return Me.LeftTree.IndexOf(item)
+    End If
+
+    If item.CompareTo(Me.NodeData) > 0 Then
+        If Me.RightTree Is Nothing Then
+            Return -1
+        End If
+
+        Return Me.RightTree.IndexOf(item)
+    End If
+
+    Return Me.position
+]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

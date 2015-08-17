@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>
+        Mod10MatrixNotCompatibleExceptionClassConstructors
+      </Title>
+      <Shortcut>
+        Mod10MatrixNotCompatibleExceptionClassConstructors
+      </Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="VB">
+        <![CDATA[Public Sub New()
+            MyBase.New()
+        End Sub
+
+        Public Sub New(ByVal message As String)
+            MyBase.New(message)
+        End Sub
+
+        Public Sub New(ByVal message As String, ByVal innerException As Exception)
+            MyBase.New(message, innerException)
+        End Sub
+
+        Public Sub New(ByVal info As SerializationInfo, ByVal context As StreamingContext)
+            MyBase.New(info, context)
+        End Sub]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

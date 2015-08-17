@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>
+        Mod10MatrixClassIndexer        
+      </Title>
+      <Shortcut>
+        Mod10MatrixClassIndexer
+      </Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="VB">
+        <![CDATA[Default Public Property Index(ByVal rowIndex As Integer, ByVal columnIndex As Integer) As Integer
+    Get
+        If rowIndex > data.GetUpperBound(0) OrElse columnIndex > data.GetUpperBound(0) Then
+            Throw New IndexOutOfRangeException()
+        Else
+            Return data(rowIndex, columnIndex)
+        End If
+    End Get
+    Set(ByVal value As Integer)
+        If rowIndex > data.GetUpperBound(0) OrElse columnIndex > data.GetUpperBound(0) Then
+            Throw New IndexOutOfRangeException()
+        Else
+            data(rowIndex, columnIndex) = value
+        End If
+    End Set
+End Property
+]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

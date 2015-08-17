@@ -1,0 +1,8 @@
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod01\01.HelloWorld\01.HelloWorld\obj\x86\Debug\_01.HelloWorld.Resources.resources
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod01\01.HelloWorld\01.HelloWorld\obj\x86\Debug\01.HelloWorld.vbproj.GenerateResource.Cache
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod01\01.HelloWorld\01.HelloWorld\bin\Debug\01.HelloWorld.exe
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod01\01.HelloWorld\01.HelloWorld\bin\Debug\01.HelloWorld.pdb
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod01\01.HelloWorld\01.HelloWorld\bin\Debug\01.HelloWorld.xml
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod01\01.HelloWorld\01.HelloWorld\obj\x86\Debug\01.HelloWorld.exe
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod01\01.HelloWorld\01.HelloWorld\obj\x86\Debug\01.HelloWorld.xml
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod01\01.HelloWorld\01.HelloWorld\obj\x86\Debug\01.HelloWorld.pdb

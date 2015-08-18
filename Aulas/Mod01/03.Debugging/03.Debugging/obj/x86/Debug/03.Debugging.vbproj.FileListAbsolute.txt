@@ -1,0 +1,8 @@
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod01\03.Debugging\03.Debugging\obj\x86\Debug\_03.Debugging.Resources.resources
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod01\03.Debugging\03.Debugging\obj\x86\Debug\03.Debugging.vbproj.GenerateResource.Cache
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod01\03.Debugging\03.Debugging\bin\Debug\03.Debugging.exe
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod01\03.Debugging\03.Debugging\bin\Debug\03.Debugging.pdb
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod01\03.Debugging\03.Debugging\bin\Debug\03.Debugging.xml
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod01\03.Debugging\03.Debugging\obj\x86\Debug\03.Debugging.exe
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod01\03.Debugging\03.Debugging\obj\x86\Debug\03.Debugging.xml
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod01\03.Debugging\03.Debugging\obj\x86\Debug\03.Debugging.pdb

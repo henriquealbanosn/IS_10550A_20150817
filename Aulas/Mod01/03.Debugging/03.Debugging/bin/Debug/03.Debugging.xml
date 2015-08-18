@@ -1,0 +1,41 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+03.Debugging
+</name>
+</assembly>
+<members>
+<member name="M:_03.Debugging.Startup.Main">
+	<summary>
+ Método inicial da aplicação
+ </summary>
+	<remarks></remarks>
+</member><member name="M:_03.Debugging.Startup.Adicionar(System.Int32,System.Int32)">
+	<summary>
+ Adiciona dois números inteiros
+ </summary>
+	<param name="Valor1">Primeiro valor</param>
+	<param name="Valor2">Segundo valor</param>
+	<returns>A soma dos dois valores</returns>
+</member><member name="T:_03.Debugging.Startup">
+	<summary>
+ Módulo responsável por iniciar a aplicação
+ </summary>
+	<remarks></remarks>
+</member><member name="P:_03.Debugging.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:_03.Debugging.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:_03.Debugging.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,15 @@
+D:\Treinamentos\IS_10550A_20150817\Demofiles\Mod1\Demo2\Starter\MyFirstWpfApp\MyFirstWpfApp\bin\Debug\MyFirstWpfApp.exe
+D:\Treinamentos\IS_10550A_20150817\Demofiles\Mod1\Demo2\Starter\MyFirstWpfApp\MyFirstWpfApp\bin\Debug\MyFirstWpfApp.pdb
+D:\Treinamentos\IS_10550A_20150817\Demofiles\Mod1\Demo2\Starter\MyFirstWpfApp\MyFirstWpfApp\bin\Debug\MyFirstWpfApp.xml
+D:\Treinamentos\IS_10550A_20150817\Demofiles\Mod1\Demo2\Starter\MyFirstWpfApp\MyFirstWpfApp\obj\x86\Debug\MainWindow.baml
+D:\Treinamentos\IS_10550A_20150817\Demofiles\Mod1\Demo2\Starter\MyFirstWpfApp\MyFirstWpfApp\obj\x86\Debug\MainWindow.g.vb
+D:\Treinamentos\IS_10550A_20150817\Demofiles\Mod1\Demo2\Starter\MyFirstWpfApp\MyFirstWpfApp\obj\x86\Debug\Application.g.vb
+D:\Treinamentos\IS_10550A_20150817\Demofiles\Mod1\Demo2\Starter\MyFirstWpfApp\MyFirstWpfApp\obj\x86\Debug\MyFirstWpfApp_MarkupCompile.cache
+D:\Treinamentos\IS_10550A_20150817\Demofiles\Mod1\Demo2\Starter\MyFirstWpfApp\MyFirstWpfApp\obj\x86\Debug\MyFirstWpfApp.g.resources
+D:\Treinamentos\IS_10550A_20150817\Demofiles\Mod1\Demo2\Starter\MyFirstWpfApp\MyFirstWpfApp\obj\x86\Debug\MyFirstWpfApp.Resources.resources
+D:\Treinamentos\IS_10550A_20150817\Demofiles\Mod1\Demo2\Starter\MyFirstWpfApp\MyFirstWpfApp\obj\x86\Debug\MyFirstWpfApp.vbproj.GenerateResource.Cache
+D:\Treinamentos\IS_10550A_20150817\Demofiles\Mod1\Demo2\Starter\MyFirstWpfApp\MyFirstWpfApp\obj\x86\Debug\MyFirstWpfApp.exe
+D:\Treinamentos\IS_10550A_20150817\Demofiles\Mod1\Demo2\Starter\MyFirstWpfApp\MyFirstWpfApp\obj\x86\Debug\MyFirstWpfApp.xml
+D:\Treinamentos\IS_10550A_20150817\Demofiles\Mod1\Demo2\Starter\MyFirstWpfApp\MyFirstWpfApp\obj\x86\Debug\MyFirstWpfApp.pdb
+D:\Treinamentos\IS_10550A_20150817\Demofiles\Mod1\Demo2\Starter\MyFirstWpfApp\MyFirstWpfApp\obj\x86\Debug\Window1.baml
+D:\Treinamentos\IS_10550A_20150817\Demofiles\Mod1\Demo2\Starter\MyFirstWpfApp\MyFirstWpfApp\obj\x86\Debug\Window1.g.vb

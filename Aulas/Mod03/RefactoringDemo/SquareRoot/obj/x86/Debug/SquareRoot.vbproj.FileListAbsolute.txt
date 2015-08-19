@@ -1,0 +1,11 @@
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab02\Ex1\Starter\SquareRoot\SquareRoot\bin\Debug\SquareRoot.exe
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab02\Ex1\Starter\SquareRoot\SquareRoot\bin\Debug\SquareRoot.pdb
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab02\Ex1\Starter\SquareRoot\SquareRoot\bin\Debug\SquareRoot.xml
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab02\Ex1\Starter\SquareRoot\SquareRoot\obj\x86\Debug\SquareRoot.Resources.resources
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab02\Ex1\Starter\SquareRoot\SquareRoot\obj\x86\Debug\SquareRoot.vbproj.GenerateResource.Cache
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab02\Ex1\Starter\SquareRoot\SquareRoot\obj\x86\Debug\SquareRoot.exe
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab02\Ex1\Starter\SquareRoot\SquareRoot\obj\x86\Debug\SquareRoot.xml
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab02\Ex1\Starter\SquareRoot\SquareRoot\obj\x86\Debug\SquareRoot.pdb
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod03\RefactoringDemo\SquareRoot\obj\x86\Debug\SquareRoot.exe
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod03\RefactoringDemo\SquareRoot\obj\x86\Debug\SquareRoot.xml
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod03\RefactoringDemo\SquareRoot\obj\x86\Debug\SquareRoot.pdb

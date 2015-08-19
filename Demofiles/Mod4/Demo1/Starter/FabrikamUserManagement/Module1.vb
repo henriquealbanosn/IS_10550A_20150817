@@ -5,7 +5,7 @@ Module Module1
         Dim usr As User = Nothing
 
         Try
-            Usr = Users.GetUserById(5)
+            usr = Users.GetUserById(5)
 
             Console.WriteLine(usr.UserName)
         Catch ex As Exception

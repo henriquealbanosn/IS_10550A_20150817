@@ -1,0 +1,17 @@
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab04\Ex1\Starter\SwitchTestHarness\bin\Debug\TestClient.exe
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab04\Ex1\Starter\SwitchTestHarness\bin\Debug\TestClient.pdb
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab04\Ex1\Starter\SwitchTestHarness\bin\Debug\TestClient.xml
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab04\Ex1\Starter\SwitchTestHarness\bin\Debug\SwitchDevice.dll
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab04\Ex1\Starter\SwitchTestHarness\bin\Debug\SwitchDevice.pdb
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab04\Ex1\Starter\SwitchTestHarness\bin\Debug\SwitchDevice.xml
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab04\Ex1\Starter\SwitchTestHarness\obj\x86\Debug\SwitchTestHarness.vbprojResolveAssemblyReference.cache
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab04\Ex1\Starter\SwitchTestHarness\obj\x86\Debug\MainWindow.baml
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab04\Ex1\Starter\SwitchTestHarness\obj\x86\Debug\MainWindow.g.vb
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab04\Ex1\Starter\SwitchTestHarness\obj\x86\Debug\Application.g.vb
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab04\Ex1\Starter\SwitchTestHarness\obj\x86\Debug\TestClient_MarkupCompile.cache
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab04\Ex1\Starter\SwitchTestHarness\obj\x86\Debug\TestClient.g.resources
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab04\Ex1\Starter\SwitchTestHarness\obj\x86\Debug\TestClient.Resources.resources
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab04\Ex1\Starter\SwitchTestHarness\obj\x86\Debug\SwitchTestHarness.vbproj.GenerateResource.Cache
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab04\Ex1\Starter\SwitchTestHarness\obj\x86\Debug\TestClient.exe
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab04\Ex1\Starter\SwitchTestHarness\obj\x86\Debug\TestClient.xml
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab04\Ex1\Starter\SwitchTestHarness\obj\x86\Debug\TestClient.pdb

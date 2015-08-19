@@ -1,0 +1,94 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SwitchDevice
+</name>
+</assembly>
+<members>
+<member name="T:SwitchDevices.CoolantSystemStatus">
+	<summary>
+ Status of coolant system enumeration
+ Check indicates a manual check needs to be performed by the operator
+ </summary>
+	<remarks></remarks>
+</member><member name="T:SwitchDevices.SuccessFailureResult">
+	<summary>
+ Success or failure result enumeration
+ </summary>
+	<remarks></remarks>
+</member><member name="F:SwitchDevices.Switch.rand">
+	<summary>
+ Utilty object for simulation
+ </summary>
+</member><member name="M:SwitchDevices.Switch.DisconnectPowerGenerator">
+	<summary>
+ Disconnect from the external power generation systems
+ </summary>
+	<returns>Success or Failure</returns>
+	<exception cref="T:SwitchDevices.PowerGeneratorCommsException">Thrown when the physical switch cannot establish a connection to the power generation system</exception>
+	<remarks></remarks>
+</member><member name="M:SwitchDevices.Switch.VerifyPrimaryCoolantSystem">
+	<summary>
+ Runs a diagnostic check against the primary coolant system
+ </summary>
+	<returns>Coolant System Status (OK, Fail, Check)</returns>
+	<exception cref="T:SwitchDevices.CoolantTemperatureReadException">Thrown when the switch cannot read the temperature from the coolant system</exception>
+	<exception cref="T:SwitchDevices.CoolantPressureReadException">Thrown when the switch cannot read the pressure from the coolant system</exception>
+	<remarks></remarks>
+</member><member name="M:SwitchDevices.Switch.VerifyBackupCoolantSystem">
+	<summary>
+ Runs a diagnostic check against the backup coolant system
+ </summary>
+	<returns>Coolant System Status (OK, Fail, Check)</returns>
+	<exception cref="T:SwitchDevices.CoolantTemperatureReadException">Thrown when the switch cannot read the temperature from the coolant system</exception>
+	<exception cref="T:SwitchDevices.CoolantPressureReadException">Thrown when the switch cannot read the pressure from the coolant system</exception>
+	<remarks></remarks>
+</member><member name="M:SwitchDevices.Switch.GetCoreTemperature">
+	<summary>
+ Reads the temperature from the reactor core
+ </summary>
+	<returns>Temperature</returns>
+	<exception cref="T:SwitchDevices.CoreTemperatureReadException">Thrown when the switch cannot access the temperature data</exception>
+	<remarks></remarks>
+</member><member name="M:SwitchDevices.Switch.InsertRodCluster">
+	<summary>
+ Instructs the reactor to insert the control rods to shut the reactor down
+ </summary>
+	<returns>Success or failure</returns>
+	<exception cref="T:SwitchDevices.RodClusterReleaseException">Thrown if the switch device cannot read the rod position</exception>
+	<remarks></remarks>
+</member><member name="M:SwitchDevices.Switch.GetRadiationLevel">
+	<summary>
+ Reads the radiation level from the reactor core
+ </summary>
+	<returns>Temperature</returns>
+	<exception cref="T:SwitchDevices.CoreRadiationLevelReadException">Thrown when the switch cannot access the radiation level data</exception>
+	<remarks></remarks>
+</member><member name="M:SwitchDevices.Switch.SignalShutdownComplete">
+	<summary>
+ Sends a broadcast message to PA system notofying shutdown complete
+ </summary>
+	<exception cref="T:SwitchDevices.SignallingException">Thrown if the switch cannot connect to the PA system over the network</exception>
+	<remarks></remarks>
+</member><member name="T:SwitchDevices.Switch">
+	<summary>
+ Switch class - manages interaction with physical switch hardware
+ </summary>
+	<remarks></remarks>
+</member><member name="P:SwitchDevices.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SwitchDevices.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:SwitchDevices.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

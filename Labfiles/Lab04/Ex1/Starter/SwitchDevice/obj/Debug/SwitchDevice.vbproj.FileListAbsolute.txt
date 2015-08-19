@@ -1,0 +1,8 @@
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab04\Ex1\Starter\SwitchDevice\bin\Debug\SwitchDevice.dll
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab04\Ex1\Starter\SwitchDevice\bin\Debug\SwitchDevice.pdb
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab04\Ex1\Starter\SwitchDevice\bin\Debug\SwitchDevice.xml
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab04\Ex1\Starter\SwitchDevice\obj\Debug\SwitchDevices.Resources.resources
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab04\Ex1\Starter\SwitchDevice\obj\Debug\SwitchDevice.vbproj.GenerateResource.Cache
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab04\Ex1\Starter\SwitchDevice\obj\Debug\SwitchDevice.dll
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab04\Ex1\Starter\SwitchDevice\obj\Debug\SwitchDevice.xml
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab04\Ex1\Starter\SwitchDevice\obj\Debug\SwitchDevice.pdb

@@ -1,0 +1,8 @@
+D:\Treinamentos\IS_10550A_20150817\Demofiles\Mod4\Demo1\Starter\FabrikamUserManagement\bin\Debug\FabrikamUserManagement.exe
+D:\Treinamentos\IS_10550A_20150817\Demofiles\Mod4\Demo1\Starter\FabrikamUserManagement\bin\Debug\FabrikamUserManagement.pdb
+D:\Treinamentos\IS_10550A_20150817\Demofiles\Mod4\Demo1\Starter\FabrikamUserManagement\bin\Debug\FabrikamUserManagement.xml
+D:\Treinamentos\IS_10550A_20150817\Demofiles\Mod4\Demo1\Starter\FabrikamUserManagement\obj\x86\Debug\FabrikamUserManagement.Resources.resources
+D:\Treinamentos\IS_10550A_20150817\Demofiles\Mod4\Demo1\Starter\FabrikamUserManagement\obj\x86\Debug\FabrikamUserManagement.vbproj.GenerateResource.Cache
+D:\Treinamentos\IS_10550A_20150817\Demofiles\Mod4\Demo1\Starter\FabrikamUserManagement\obj\x86\Debug\FabrikamUserManagement.exe
+D:\Treinamentos\IS_10550A_20150817\Demofiles\Mod4\Demo1\Starter\FabrikamUserManagement\obj\x86\Debug\FabrikamUserManagement.xml
+D:\Treinamentos\IS_10550A_20150817\Demofiles\Mod4\Demo1\Starter\FabrikamUserManagement\obj\x86\Debug\FabrikamUserManagement.pdb

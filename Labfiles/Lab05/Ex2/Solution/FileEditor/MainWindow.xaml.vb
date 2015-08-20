@@ -38,7 +38,7 @@ Class MainWindow
         ' Configure open file dialog box
         Dim openFileDlg As New OpenFileDialog()
 
-        openFileDlg.InitialDirectory = "D:\Labfiles\Lab05\Ex2\Starter"
+        openFileDlg.InitialDirectory = "D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab05\Ex2\Starter"
         openFileDlg.DefaultExt = ".txt" ' Default file extension
         openFileDlg.Filter = "Text Documents (.txt)|*.txt" ' Filter files by extension
 

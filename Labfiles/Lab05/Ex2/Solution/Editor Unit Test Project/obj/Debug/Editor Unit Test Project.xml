@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EditorUnitTestProject
+</name>
+</assembly>
+<members>
+<member name="P:Editor_Unit_Test_Project.TextFileOperationsTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:Editor_Unit_Test_Project.TextFileOperationsTest.ReadAndFilterTextFileContentsTest">
+	<summary>
+A test for ReadTextFileContents
+</summary>
+	<remarks></remarks>
+</member><member name="M:Editor_Unit_Test_Project.TextFileOperationsTest.WriteTextFileContentsTest1">
+	<summary>
+A test for WriteTextFileContents
+</summary>
+	<remarks></remarks>
+</member><member name="T:Editor_Unit_Test_Project.TextFileOperationsTest">
+	<summary>
+ This is a test class for TextFileOperationsTest and is intended
+ to contain all TextFileOperationsTest Unit Tests
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

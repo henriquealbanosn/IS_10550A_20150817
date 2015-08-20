@@ -1,0 +1,13 @@
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab05\Ex1\Solution\FileEditor\bin\Debug\FileEditor.exe
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab05\Ex1\Solution\FileEditor\bin\Debug\FileEditor.pdb
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab05\Ex1\Solution\FileEditor\bin\Debug\FileEditor.xml
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab05\Ex1\Solution\FileEditor\obj\x86\Debug\MainWindow.baml
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab05\Ex1\Solution\FileEditor\obj\x86\Debug\MainWindow.g.vb
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab05\Ex1\Solution\FileEditor\obj\x86\Debug\Application.g.vb
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab05\Ex1\Solution\FileEditor\obj\x86\Debug\FileEditor_MarkupCompile.cache
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab05\Ex1\Solution\FileEditor\obj\x86\Debug\FileEditor.g.resources
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab05\Ex1\Solution\FileEditor\obj\x86\Debug\FileEditor.Resources.resources
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab05\Ex1\Solution\FileEditor\obj\x86\Debug\FileEditor.vbproj.GenerateResource.Cache
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab05\Ex1\Solution\FileEditor\obj\x86\Debug\FileEditor.exe
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab05\Ex1\Solution\FileEditor\obj\x86\Debug\FileEditor.xml
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab05\Ex1\Solution\FileEditor\obj\x86\Debug\FileEditor.pdb

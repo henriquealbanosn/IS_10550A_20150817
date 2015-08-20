@@ -1,0 +1,10 @@
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab05\Ex1\Solution\Editor Unit Test Project\bin\Debug\Editor Unit Test Project.dll
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab05\Ex1\Solution\Editor Unit Test Project\bin\Debug\Editor Unit Test Project.pdb
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab05\Ex1\Solution\Editor Unit Test Project\bin\Debug\Editor Unit Test Project.xml
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab05\Ex1\Solution\Editor Unit Test Project\bin\Debug\FileEditor.exe
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab05\Ex1\Solution\Editor Unit Test Project\bin\Debug\FileEditor.pdb
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab05\Ex1\Solution\Editor Unit Test Project\bin\Debug\FileEditor.xml
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab05\Ex1\Solution\Editor Unit Test Project\obj\Debug\Editor Unit Test Project.vbprojResolveAssemblyReference.cache
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab05\Ex1\Solution\Editor Unit Test Project\obj\Debug\Editor Unit Test Project.dll
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab05\Ex1\Solution\Editor Unit Test Project\obj\Debug\Editor Unit Test Project.xml
+D:\Treinamentos\IS_10550A_20150817\Labfiles\Lab05\Ex1\Solution\Editor Unit Test Project\obj\Debug\Editor Unit Test Project.pdb

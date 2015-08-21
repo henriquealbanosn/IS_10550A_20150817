@@ -23,12 +23,17 @@
     End Property
 
     Public Sub New()
-        _numero = 199
+        _numero = GerarNumeroConta()
     End Sub
 
     Public Sub New(ByVal gerente As String)
+        Me.New()
         Me.Gerente = gerente
     End Sub
+
+    Function GerarNumeroConta() As Integer
+        Return 199
+    End Function
 
     Sub Deposito(ByVal valor As Decimal)
         _saldo += valor

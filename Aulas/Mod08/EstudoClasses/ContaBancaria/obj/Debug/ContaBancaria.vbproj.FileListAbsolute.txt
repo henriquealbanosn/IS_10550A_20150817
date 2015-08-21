@@ -6,3 +6,11 @@ D:\Treinamentos\IS_10550A_20150817\Aulas\Mod06\EstudoClasses\ContaBancaria\obj\D
 D:\Treinamentos\IS_10550A_20150817\Aulas\Mod06\EstudoClasses\ContaBancaria\obj\Debug\ContaBancaria.dll
 D:\Treinamentos\IS_10550A_20150817\Aulas\Mod06\EstudoClasses\ContaBancaria\obj\Debug\ContaBancaria.xml
 D:\Treinamentos\IS_10550A_20150817\Aulas\Mod06\EstudoClasses\ContaBancaria\obj\Debug\ContaBancaria.pdb
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod08\EstudoClasses\ContaBancaria\bin\Debug\ContaBancaria.dll
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod08\EstudoClasses\ContaBancaria\bin\Debug\ContaBancaria.pdb
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod08\EstudoClasses\ContaBancaria\bin\Debug\ContaBancaria.xml
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod08\EstudoClasses\ContaBancaria\obj\Debug\ContaBancaria.Resources.resources
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod08\EstudoClasses\ContaBancaria\obj\Debug\ContaBancaria.vbproj.GenerateResource.Cache
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod08\EstudoClasses\ContaBancaria\obj\Debug\ContaBancaria.dll
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod08\EstudoClasses\ContaBancaria\obj\Debug\ContaBancaria.xml
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod08\EstudoClasses\ContaBancaria\obj\Debug\ContaBancaria.pdb

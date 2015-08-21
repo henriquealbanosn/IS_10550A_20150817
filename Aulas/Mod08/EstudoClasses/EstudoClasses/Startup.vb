@@ -4,19 +4,14 @@ Imports System.Runtime.CompilerServices
 Module Startup
 
     Sub Main()
-        Dim conta1 As New ContaCorrente("João")
-        Dim conta2 As New ContaCorrente("João")
-        Dim conta3 As New ContaCorrente("João")
-        Dim conta4 As New ContaCorrente("João")
+        Dim corrente As New ContaCorrente()
+        Dim poupanca As New ContaPoupanca()
 
-        Dim data As DateTime = DateTime.Now
-        Console.WriteLine(data.ToDatabaseString())
+        poupanca.Deposito(100)
+        corrente.Deposito(100)
 
-        Console.WriteLine(conta1.Numero)
-        conta1.Deposito(8.5)
-
-        Console.WriteLine(conta1.Saldo)
-        Console.ReadLine()
+        Console.WriteLine(corrente.Saldo)
+        Console.WriteLine(poupanca.Saldo)
     End Sub
 
 End Module

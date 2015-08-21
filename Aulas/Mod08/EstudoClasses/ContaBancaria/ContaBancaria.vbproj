@@ -64,7 +64,9 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Conta.vb" />
     <Compile Include="ContaCorrente.vb" />
+    <Compile Include="ContaPoupanca.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

@@ -1,0 +1,12 @@
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod06\EstudoClasses\EstudoClasses\bin\Debug\EstudoClasses.exe
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod06\EstudoClasses\EstudoClasses\bin\Debug\EstudoClasses.pdb
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod06\EstudoClasses\EstudoClasses\bin\Debug\EstudoClasses.xml
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod06\EstudoClasses\EstudoClasses\bin\Debug\ContaBancaria.dll
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod06\EstudoClasses\EstudoClasses\bin\Debug\ContaBancaria.pdb
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod06\EstudoClasses\EstudoClasses\bin\Debug\ContaBancaria.xml
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod06\EstudoClasses\EstudoClasses\obj\x86\Debug\EstudoClasses.vbprojResolveAssemblyReference.cache
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod06\EstudoClasses\EstudoClasses\obj\x86\Debug\EstudoClasses.Resources.resources
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod06\EstudoClasses\EstudoClasses\obj\x86\Debug\EstudoClasses.vbproj.GenerateResource.Cache
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod06\EstudoClasses\EstudoClasses\obj\x86\Debug\EstudoClasses.exe
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod06\EstudoClasses\EstudoClasses\obj\x86\Debug\EstudoClasses.xml
+D:\Treinamentos\IS_10550A_20150817\Aulas\Mod06\EstudoClasses\EstudoClasses\obj\x86\Debug\EstudoClasses.pdb

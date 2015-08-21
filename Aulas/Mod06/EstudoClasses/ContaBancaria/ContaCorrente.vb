@@ -24,6 +24,10 @@
         End Set
     End Property
 
+    Shared Sub New()
+        _ultimoNumero = 10000
+    End Sub
+
     Public Sub New()
         _numero = GerarNumeroConta()
     End Sub

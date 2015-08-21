@@ -1,12 +1,9 @@
 ﻿Public Class ContaCorrente
     Private _numero As Integer
-    Public Property Numero() As Integer
+    Public ReadOnly Property Numero() As Integer
         Get
             Return _numero
         End Get
-        Set(ByVal value As Integer)
-            _numero = value
-        End Set
     End Property
     Private _saldo As Decimal
     Public Property Saldo() As Decimal

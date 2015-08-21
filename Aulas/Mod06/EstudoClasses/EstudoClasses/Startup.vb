@@ -6,6 +6,8 @@ Module Startup
         Console.WriteLine(conta.Numero)
         conta.Deposito(8.5)
 
+        Console.WriteLine(conta.Saldo)
+        Console.ReadLine()
     End Sub
 
 End Module

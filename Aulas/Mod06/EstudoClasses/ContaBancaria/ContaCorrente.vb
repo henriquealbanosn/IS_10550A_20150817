@@ -6,17 +6,28 @@
         End Get
     End Property
     Private _saldo As Decimal
-    Public Property Saldo() As Decimal
+    Public ReadOnly Property Saldo() As Decimal
         Get
             Return _saldo
         End Get
-        Set(ByVal value As Decimal)
-            _saldo = value
+    End Property
+
+    Private _gerente As String
+    Public Property Gerente() As String
+        Get
+            Return _gerente
+        End Get
+        Set(ByVal value As String)
+            _gerente = value
         End Set
     End Property
 
     Public Sub New()
         _numero = 199
+    End Sub
+
+    Public Sub New(ByVal gerente As String)
+        Me.Gerente = gerente
     End Sub
 
     Sub Deposito(ByVal valor As Decimal)

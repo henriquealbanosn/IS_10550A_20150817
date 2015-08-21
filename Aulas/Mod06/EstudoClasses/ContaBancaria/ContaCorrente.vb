@@ -18,6 +18,10 @@
         End Set
     End Property
 
+    Public Sub New()
+        _numero = 199
+    End Sub
+
     Sub Deposito(ByVal valor As Decimal)
         _saldo += valor
     End Sub

@@ -1,4 +1,6 @@
 ﻿Public Class ContaCorrente
+    Private Shared _ultimoNumero As Integer = 0
+
     Private _numero As Integer
     Public ReadOnly Property Numero() As Integer
         Get
@@ -31,8 +33,9 @@
         Me.Gerente = gerente
     End Sub
 
-    Function GerarNumeroConta() As Integer
-        Return 199
+    Private Function GerarNumeroConta() As Integer
+        _ultimoNumero += 1
+        Return _ultimoNumero
     End Function
 
     Sub Deposito(ByVal valor As Decimal)
